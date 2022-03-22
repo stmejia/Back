@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aguila.Interfaces.Trafico.Model.Clientes" Collapsed="true">
+    <Position X="16.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAoAAABAQAAAIAQAAAIAACIAAAAAQAEAAAgAEAgAA=</HashCode>
+      <FileName>Model\Clientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.SolicitudesMovimientos" Collapsed="true">
+    <Position X="13.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAZYSAoCgCAUAAUhDAAABqAQAAAFBwBAAACAgIAQIA=</HashCode>
+      <FileName>Model\SolicitudesMovimientos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="clientes" />
+      <Property Name="TipoMovimiento" />
+      <Property Name="EstacionTrabajo" />
+      <Property Name="SectorDestino" />
+      <Property Name="SectorOrigen" />
+      <Property Name="TipoDocumento" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Integracion" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.SolicitudesMovimientosIntegracion" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IiBYEIEICEIBQAJAAAAABAAAAQACAAAUACAAAAIAIAA=</HashCode>
+      <FileName>Model\solicitudesMovimientosIntegracion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Servicio" />
+      <Property Name="tipoContenedor" />
+      <Property Name="solicitudesMovimientos" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Movimientos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.EquipoRemolque" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQQgAAAAQAASAQQCCAhAAFCAgBIAEiAoDAYFAICCAA=</HashCode>
+      <FileName>Model\EquipoRemolque.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoEquipoRemolque" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.LocSectores" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAEAAEAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Model\LocSectores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.Movimientos" Collapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCGAQAAKAA5CSDgAISAAgBgkQMAIRkCQYFAAKAIQQQI=</HashCode>
+      <FileName>Model\Movimientos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoDocumento" />
+      <Property Name="EquipoRemolque" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.Servicios" Collapsed="true">
+    <Position X="13.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAEAAEABACAAAAAAAAACKAAAAAAAA=</HashCode>
+      <FileName>Model\Servicios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.SisEstacionesTrabajo" Collapsed="true">
+    <Position X="16" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQBAIhEAMFCAAAAAgOEAgAAAAhIABQIgETFgAAkSAA=</HashCode>
+      <FileName>Model\SisEstacionesTrabajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.TipoContenedor" Collapsed="true">
+    <Position X="6.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAABAAAAAAIAASAAAAgAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Model\TipoContenedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.TipoEquipoRemolque" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAAAAAAAQAABAEQAAACAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\TipoEquipoRemolque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.TiposDocumentos" Collapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBQAAAAAACAAAAAAAACAACAAAIARAAAQAAAAAAgAA=</HashCode>
+      <FileName>Model\TiposDocumentos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aguila.Interfaces.Trafico.Model.TiposMovimientos" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAAAAAAAACAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\TiposMovimientos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

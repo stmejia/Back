@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Aguila.Core.Entities.activoMovimientos">
+    <Position X="12.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>rAAgDAAABYAkIAAAgAQAAABAAAIAAAQAAAQAAAIAEgA=</HashCode>
+      <FileName>Entities\activoMovimientos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="activoOperacion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Aguila.Core.Entities.activoMovimientosActual">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>rAAgDAAAAYAkYAAAAAQAAABAAAIAAAQAAAQAAAIAEAA=</HashCode>
+      <FileName>Entities\activoMovimientosActual.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="activoOperacion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Aguila.Core.Entities.activoOperaciones">
+    <Position X="9.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAhAQAAAAAQiAAAAAEIIQAAAAAAQACACAIAAAAAAoA=</HashCode>
+      <FileName>Entities\activoOperaciones.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aguila.Core.Entities.equipoRemolque">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAgARAgCIQAAAQhAQAAAABACAIAAABAAAIAAYwAJAA=</HashCode>
+      <FileName>Entities\equipoRemolque.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="activoOperacion" />
+      <Property Name="movimientoActual" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="movimientos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

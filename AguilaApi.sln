@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aguila.IntegrationTests", "Aguila.IntegrationTests\Aguila.IntegrationTests.csproj", "{F04D9735-66A7-4A9E-94A7-2A83399C8948}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aguila.UnitTests", "Aguila.UnitTests\Aguila.UnitTests.csproj", "{5A89D2BF-0565-4475-ABB2-5BE42411B8AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aguila.Api", "Aguila.Api\Aguila.Api.csproj", "{6B53CC05-AA31-40B2-BD11-4CEF38036675}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8E1C1D60-D6C3-4A91-B913-BD734B27AC2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aguila.Interfaces.Trafico", "Aguila.Interfaces.Trafico\Aguila.Interfaces.Trafico.csproj", "{6528EA10-9F5E-4EB3-9E59-1FFB4A896D6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aguila.Core", "Aguila.Core\Aguila.Core.csproj", "{66AB0EFC-BCA6-4B1F-91D8-605A1815B9FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aguila.Infrastructure", "Aguila.Infrastructure\Aguila.Infrastructure.csproj", "{FCA17B20-AE6D-4810-9AE7-633C8C756DA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04D9735-66A7-4A9E-94A7-2A83399C8948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04D9735-66A7-4A9E-94A7-2A83399C8948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04D9735-66A7-4A9E-94A7-2A83399C8948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04D9735-66A7-4A9E-94A7-2A83399C8948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A89D2BF-0565-4475-ABB2-5BE42411B8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A89D2BF-0565-4475-ABB2-5BE42411B8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A89D2BF-0565-4475-ABB2-5BE42411B8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A89D2BF-0565-4475-ABB2-5BE42411B8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B53CC05-AA31-40B2-BD11-4CEF38036675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B53CC05-AA31-40B2-BD11-4CEF38036675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B53CC05-AA31-40B2-BD11-4CEF38036675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B53CC05-AA31-40B2-BD11-4CEF38036675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6528EA10-9F5E-4EB3-9E59-1FFB4A896D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6528EA10-9F5E-4EB3-9E59-1FFB4A896D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6528EA10-9F5E-4EB3-9E59-1FFB4A896D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6528EA10-9F5E-4EB3-9E59-1FFB4A896D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AB0EFC-BCA6-4B1F-91D8-605A1815B9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AB0EFC-BCA6-4B1F-91D8-605A1815B9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AB0EFC-BCA6-4B1F-91D8-605A1815B9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AB0EFC-BCA6-4B1F-91D8-605A1815B9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA17B20-AE6D-4810-9AE7-633C8C756DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA17B20-AE6D-4810-9AE7-633C8C756DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA17B20-AE6D-4810-9AE7-633C8C756DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA17B20-AE6D-4810-9AE7-633C8C756DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F04D9735-66A7-4A9E-94A7-2A83399C8948} = {8E1C1D60-D6C3-4A91-B913-BD734B27AC2F}
+		{5A89D2BF-0565-4475-ABB2-5BE42411B8AB} = {8E1C1D60-D6C3-4A91-B913-BD734B27AC2F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C942B919-E2B7-48D9-BD4B-82EE0858A93B}
+	EndGlobalSection
+EndGlobal

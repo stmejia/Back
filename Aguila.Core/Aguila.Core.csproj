@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\AltasTrafico\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aguila.Interfaces.Trafico\Aguila.Interfaces.Trafico.csproj" />
+  </ItemGroup>
+
+</Project>
